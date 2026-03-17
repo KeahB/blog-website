@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "title": "The Art of Living with Less",
+    "excerpt": "Exploring how minimalism can lead to a more profound and focused creative life.",
+    "content": "Minimalism is not just about having fewer things; it's about making room for the things that truly matter. In a world that constantly demands our attention, the most radical act is to choose focus.\n\n### The Core Principles\n\nSimplicity is the ultimate sophistication. By removing the noise, we allow our inner voice to speak louder. It starts with your physical space, but it ends with your mental clarity.\n\n> \"Simplicity is not the absence of clutter, that's a consequence of simplicity. Simplicity is somehow essentially describing the purpose and place of an object and product.\" — Jony Ive\n\n### Practical Steps\n\n1. Audit your surroundings.\n2. Identify the essential.\n3. Eliminate the rest.\n\nWhen you live with less, each object you own takes on more meaning. Each thought you have has more space to develop.",
+    "date": "2024-03-15",
+    "author": "Keah",
+    "readingTime": 5,
+    "tags": ["Minimalism", "Lifestyle", "Focus"],
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2067&auto=format&fit=crop"
+  },
+  {
+    "id": "2",
+    "title": "Typography in the Digital Age",
+    "excerpt": "Why the choice of font is a critical part of the user's emotional journey.",
+    "content": "Type is the voice of your interface. It carries tone, authority, and emotion before a single word is read. In the digital age, performance is key, but beauty is mandatory.\n\n### The Silent Communicator\n\nWe often overlook the impact of letter spacing and line height. These small adjustments are the difference between a reading experience that feels like a chore and one that feels like a conversation.\n\n> \"Typography is the craft of endowing human language with a durable visual form.\" — Robert Bringhurst\n\n### Choosing the Right Pair\n\nA strong sans-serif for headers provides structure, while a graceful serif for body text provides comfort. This classic pairing is used across this blog to create a sense of timeless editorial quality.",
+    "date": "2024-03-12",
+    "author": "Admin",
+    "readingTime": 4,
+    "tags": ["Design", "Typography", "UI/UX"],
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
+  },
+  {
+    "id": "3",
+    "title": "Deep Work and Modern Distraction",
+    "excerpt": "Finding the flow state in a world designed to keep you clicking.",
+    "content": "The ability to perform deep work is becoming increasingly rare at the exactly same time it is becoming increasingly valuable. Our tools are designed for shallow engagement, but our growth requires deep focus.\n\n### The Flow State\n\nWhen we immerse ourselves in a single task, time seems to vanish. This is where the best work happens. At Soft Lines, we believe your reading experience should facilitate this state, not hinder it.\n\n> \"Deep work is the ability to focus without distraction on a cognitively demanding task.\" — Cal Newport\n\n### Creating Your Sanctuary\n\nTurn off the notifications. Close the extra tabs. Give yourself permission to be unreachable. Your best ideas are waiting in the silence.",
+    "date": "2024-03-10",
+    "author": "Editor",
+    "readingTime": 6,
+    "tags": ["Work", "Focus", "Minimalism"],
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop"
+  },
+  {
+    "id": "4",
+    "title": "The Future of Minimalist Architecture",
+    "excerpt": "How physical spaces are evolving to reflect our need for mental tranquility.",
+    "content": "Architecture is moving toward an essence of 'quietness'. Modern spaces are being designed to breathe, using natural light and raw materials to ground us.\n\n### Space as a Luxury\n\nIn urban environments, space is the ultimate luxury. Not the size of the space, but the volume of silence it can hold. Clean lines and open voids allow the mind to wander.\n\n### Materiality and Light\n\nConcrete, glass, and wood. These primary materials connected by light create a rhythmic experience. It's about honesty in construction and clarity in form.\n\n> \"God is in the details.\" — Ludwig Mies van der Rohe",
+    "date": "2024-03-18",
+    "author": "Design Team",
+    "readingTime": 8,
+    "tags": ["Design", "Future", "Minimalism"],
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
+  },
+  {
+    "id": "5",
+    "title": "The Power of Intentional Technology",
+    "excerpt": "Using tools as extensions of our capability, not replacements for our attention.",
+    "content": "Technology should be invisible. It should empower us to do more while demanding less of our soul. Intentionality is the filter through which we should view every app and device.\n\n### Tools for Thought\n\nWe build digital objects to help us think. But when the object becomes louder than the thought, the tool has failed. We must prioritize interfaces that respect the user's cognitive load.\n\n### The Human Aspect\n\nAt the end of every line of code is a person. Designing with empathy means designing for the human condition—including our need for rest and focus.",
+    "date": "2024-03-17",
+    "author": "Keah",
+    "readingTime": 5,
+    "tags": ["Technology", "Focus", "UI/UX"],
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop"
+  }
+]

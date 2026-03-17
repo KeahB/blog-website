@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Caveat:wght@400;700&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-serif: "Lora", "Georgia", serif;
+  --font-sans: "Outfit", sans-serif;
+  --font-handwriting: "Caveat", cursive;
+  
+  /* High Contrast Minimalist Palette */
+  --color-primary: #0a0a0a;   /* Richer Black for titles */
+  --color-secondary: #374151; /* Dark Gray for body/secondary text */
+  --color-tertiary: #6b7280;  /* Muted Gray for metadata */
+  --color-page-bg: #ffffff;   /* Pure White */
+  
+  --spacing-8: 2rem;
+}
+
+@layer base {
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #0a0a0a;
+    --accent-color: #374151;
+    color-scheme: light;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    margin: 0;
+  }
+
+  .blog-content {
+    font-family: var(--font-serif);
+    line-height: 2;
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
+    color: #1a1a1a; /* Very solid dark gray for reading */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+    color: #000000;
+  }
+
+  p {
+    margin-bottom: 1.75rem;
+  }
+
+  .hero-bg {
+    background-color: #ffffff;
+    background-image: radial-gradient(#efefef 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  blockquote {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    border-color: #000000;
+  }
+}
+
+@layer utilities {
+  .reading-container {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .glass {
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .handwriting {
+    font-family: var(--font-handwriting);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
